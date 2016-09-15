@@ -22,3 +22,10 @@
   entry: go-metalinter.sh
   language: script
   description: "Runs a bunch of Go linters, requires https://github.com/alecthomas/gometalinter."
+- id: go-test
+  name: Go Test
+  files: ^$
+  always_run: true
+  entry: go-test.sh
+  language: script
+  description: "Runs `go test`, requires Golang."
