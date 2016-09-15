@@ -1,0 +1,6 @@
+# pre-commit (http://pre-commit.com) config
+
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v0.4.2
+    hooks:
+    - id: check-yaml
